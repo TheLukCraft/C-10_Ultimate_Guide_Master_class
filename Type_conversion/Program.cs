@@ -1,4 +1,5 @@
-﻿//sbyte
+﻿//inplicit casting - rzutowanie niejawne
+//sbyte
 sbyte a = 10;
 
 //int 
@@ -12,3 +13,18 @@ b = a;
 
 Console.WriteLine(a); //10
 Console.WriteLine(b); //10
+
+//-------------------------------------
+//explicit casting - rzutowanie jawne
+int x = 100;
+
+float y;
+
+y = (float)x;
+
+
+int c = 500;
+
+byte d;
+
+d = (byte)c;
