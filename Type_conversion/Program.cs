@@ -36,3 +36,15 @@ string f = "100";
 //But you can do that. If string contains spaces, other characters then you can't.
 int g;
 g = int.Parse(f);
+
+//-------------------------------------
+string h;
+Console.WriteLine("Enter a number: ");
+h = Console.ReadLine();
+
+//TryParse
+bool k = int.TryParse(h, out int j);
+if (k == true)
+    Console.WriteLine("Conversion is successful");
+else
+    Console.WriteLine("Conversion failed");
