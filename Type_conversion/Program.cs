@@ -48,3 +48,17 @@ if (k == true)
     Console.WriteLine("Conversion is successful");
 else
     Console.WriteLine("Conversion failed");
+
+//--------------------------------------
+//Conversion Methods
+int n = 10;
+string l = "10";
+//int -> string
+Convert.ToString(n);
+
+//string -> int
+Convert.ToInt32(l);
+
+//output
+Console.WriteLine(n);
+Console.WriteLine(l);
