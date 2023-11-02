@@ -2,7 +2,7 @@
 //sbyte
 sbyte a = 10;
 
-//int 
+//int
 int b;
 
 //not working, because higher value
@@ -22,9 +22,17 @@ float y;
 
 y = (float)x;
 
-
 int c = 500;
 
 byte d;
 
 d = (byte)c;
+
+//-------------------------------------
+//Parsing - only numbers. You can't convert characters or strings.
+string f = "100";
+//int.Parse(a);
+
+//But you can do that. If string contains spaces, other characters then you can't.
+int g;
+g = int.Parse(f);
